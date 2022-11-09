@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* this is the main div where the will play */
+
+#main_video_banner{
+    width: 100%;
+    border: 0px solid red;
+    height: 600px;
+    display: flex;
+    
+}
+
+
+
+/* this is the child 1 which is  responible for left content */
+
+#main_video_banner>div:nth-child(1){
+    border: 0px solid red;
+    width:50%    ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #8a5080;
+    
+}
+.heading_in_video_banner{
+    margin-top: 150px;
+    font-size: 28px;
+    width: 300px;
+    margin-left: 30px;
+    color: white;
+    line-height: 35px;
+    
+}
+.p_in_video_banner{
+    margin-top: 35px;
+    text-align: justify;
+    width: 300px;
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 20px;
+
+}
+.btn_in_video_banner{
+    margin-top: 50px;
+    padding: 10px;
+    width: 280px;
+    margin-left: 50px;
+    color: black;
+    font-weight:bold;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+/* this is the child div 2 which is responible for right content (video)  */
+#main_video_banner>div:nth-child(2){
+    border: 0px solid red;
+    width: 100%;
+    
+}
+.main_video_banner_2nd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main_video_banner_2nd>div{
+
+    border: 0px solid red;
+    width: 90%;
+    height: 80%;
+    
+}
+
+
+/* this is responsible for three product which is showing below the video content */
+
+  #three_product_div{
+    width: 100%;
+    height: 450px;
+    border: 0px solid red;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  #three_product_div>div{
+    width:350px;
+    height: 430px;
+    border: 0px solid red;
+    background-size: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  #three_product_div>div:nth-child(1){
+    background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Hair-Smooth-HP-Module-US-CAN-AUS2.jpg?context=bWFzdGVyfHJvb3R8NTY2MjZ8aW1hZ2UvanBlZ3xoYzAvaDExLzE1ODg5Mzg4NjM0MTQyLmpwZ3w1ZTMxZWJjNWE4YmQ2ZmM0NjEzMWQzOGVmYzA5MmIyNGRkOTAwMmJmNzQ4Y2M0ZjNhN2MwYTU5NTY5MWU4ZDA2);
+    background-size: 100%;
+  }
+  #three_product_div>div:nth-child(2){
+    
+    background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Skincare-1-HP-Module-US-CAN-AUS2.jpg?context=bWFzdGVyfHJvb3R8NTQ4ODR8aW1hZ2UvanBlZ3xoNWEvaGQwLzE1ODg5Mzg4Njk5Njc4LmpwZ3w1ZTNjODZhYzM0NTM1N2M4MGViYjYyMWRkZmYyNDU3MGU5MDdkZGQxZDIyZWI4ZmQwYmI4ZjVjOGRmOTg0NDdl);
+    background-size: 100%;
+    border-radius: 10px;
+  }
+  #three_product_div>div:nth-child(3){
+    background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Skincare-2-HP-Module-US2.jpg?context=bWFzdGVyfHJvb3R8NjgyMzV8aW1hZ2UvanBlZ3xoNzcvaGEzLzE1ODg5Mzg4NzY1MjE0LmpwZ3xjMWM0YWNhZjIyMjg2OTgwODA5MzgyOWNlYzc5OTE5MDBhNjZiYWIzYTQ2NDI5ZTRmMTZjNmJhOTBjNTVmOGJm);
+    background-size: 100%;
+    border-radius: 10px;
+  }
+ #three_product_div>div>p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    
+
+
+ }
+ #three_product_div>div>p:nth-child(2){
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+
+
+ }
