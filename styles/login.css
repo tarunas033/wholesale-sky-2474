@@ -1,0 +1,37 @@
+#login__div > form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+}
+#login__div > form > div {
+    width: 70%;
+    margin: auto;
+}
+input {
+    width: 100%;
+    background-color: silver;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    padding-left: .5rem;
+    color: black;
+}
+#submit__button {
+    background-color: black;
+    color: aliceblue;
+    margin-top: 2rem;
+}
+.register__a {
+    color: purple;
+    text-decoration: none;
+}
+form > div > p {
+    text-align: center;
+}
