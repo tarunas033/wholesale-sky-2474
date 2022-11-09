@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: ProximaNovaRegular,Arial;
+        }
+        #top{
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+            height: 240px;
+            display: flex;
+        }
+        #top>#left{
+
+            width: 40%;
+        }
+        #top>#left>img{
+            height: 100%;
+            width: 100%;
+        }
+        #top>#right{
+            width: 60%;
+            text-align: left;
+            background-color: #faf6f5;
+        }
+        #top>#right>h1{
+           
+            font-family: RFFontRoman,Arial, sans-serif;
+            font-size: 32px;
+            color: #222222;
+            font-weight: 100;
+
+
+        }
+        #top>#right>p{
+            color: #3b3b3b;
+            font-size: 18px;
+        }
+        .head1{
+            margin: auto;
+            width: 90%;
+        }
+        .head1>.h1{
+ 
+            font-size: 24px;
+            color: #222222;
+        }
+        .head1>.h2{
+ 
+            color: #3b3b3b;
+            font-size: 18px;
+        }
+        #bundles{
+            width: 90%;
+            margin: auto;
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        #bundles>div{
+margin-top: 10px;
+color:#222222;
+padding: 5px;
+        }
+        #bundles>div>h4{
+            font-weight: 300;
+        }
+        #bundles>div>button{
+            width: 100%;
+            font-weight: 500;
+            border: 1px solid #222222;
+            border-radius: 5px;
+            height: 40px;
+            background-color: #ffffff;
+            cursor: pointer;
+        }
+        #bundles>div>img{
+            height: 60%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+
+        <div id="left">
+            <img src="https://www.rodanandfields.com/en-us/medias/category-skincare-regimens-category-page-global.jpg?context=bWFzdGVyfHJvb3R8OTIzNjB8aW1hZ2UvanBlZ3xoMjUvaGVkLzE0OTMwMzcwODg3NzEwLmpwZ3xhNWVlNThiMTBiY2MxZTk2ODYxZWJjN2Q5ZTU2OWZhYjNmMDJiZDVmYjU0MjIwNGM0ZDcxNDdkZDFiOTNkZGIw" alt="">
+        </div>
+        <div id="right">
+<h1>Skincare Regimens</h1>
+<p>Finding a good skincare routine is easier than you may <br> think. Our multi-step Regimens take the guesswork out of <br> building a routine that works.</p>
+        </div>
+    </div>
+    <!-- <div class="head1">
+        <p class="h1">Regimen</p>
+        <p class="h2">Our skincare routines are made easy with our unique Multi-Med Therapy, providing the right ingredients, in the right formulas, in the right order.</p>
+    
+    </div> -->
+    <div class="head1">
+        <p class="h1">Regimen Bundles</p>
+        <p class="h2">Boost your skincare routine + your budget with our value sets for skin, lashes, pore cleansing + more.
+        </p>
+    </div>
+
+    <div id="bundles">
+
+    </div>
+    
+</body>
+<script src="skincare_reg.js"></script>
+</html>
