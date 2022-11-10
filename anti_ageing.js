@@ -76,11 +76,11 @@ let data2=[
 
   let add_i=(data)=>{
 
-    let arr_data=JSON.parse(localStorage.getItem("add2"))||[];
+    let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
     arr_data.push(data);
 
-    localStorage.setItem("add2",JSON.stringify(arr_data));
+    localStorage.setItem("add1",JSON.stringify(arr_data));
   }
 
 
@@ -267,9 +267,9 @@ let data2=[
 
   let add_n=(data)=>{
 
-    let arr_data=JSON.parse(localStorage.getItem("add4"))||[];
+    let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
     arr_data.push(data);
 
-    localStorage.setItem("add4",JSON.stringify(arr_data));
+    localStorage.setItem("add1",JSON.stringify(arr_data));
   }

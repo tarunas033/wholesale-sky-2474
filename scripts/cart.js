@@ -2,7 +2,7 @@ let cart = JSON.parse(localStorage.getItem("add1"));
 
 let proceedForPay = document.querySelector("#payment");
 proceedForPay.addEventListener("click",() =>{
-    window.location.href="../PaymentPage/payment.html";
+    window.location.href="./payment.html";
 })
 
 let itemNum = cart.length;
