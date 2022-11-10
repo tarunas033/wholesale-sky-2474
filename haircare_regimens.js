@@ -77,9 +77,9 @@ let data8=[
 
   let add_h=(data)=>{
 
-    let arr_data=JSON.parse(localStorage.getItem("add8"))||[];
+    let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
     arr_data.push(data);
 
-    localStorage.setItem("add8",JSON.stringify(arr_data));
+    localStorage.setItem("add1",JSON.stringify(arr_data));
   }

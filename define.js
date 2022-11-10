@@ -70,11 +70,11 @@ let append_bundles=(data)=>{
 
   let add_a=(data)=>{
 
-    let arr_data=JSON.parse(localStorage.getItem("add5"))||[];
+    let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
     arr_data.push(data);
 
-    localStorage.setItem("add5",JSON.stringify(arr_data));
+    localStorage.setItem("add1",JSON.stringify(arr_data));
   }
 
   let data6=[
@@ -148,11 +148,11 @@ let append_bundles=(data)=>{
 
   let add_s=(data)=>{
 
-    let arr_data=JSON.parse(localStorage.getItem("add6"))||[];
+    let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
     arr_data.push(data);
 
-    localStorage.setItem("add6",JSON.stringify(arr_data));
+    localStorage.setItem("add1",JSON.stringify(arr_data));
   }
 
 
@@ -240,9 +240,9 @@ let data7=[
 
   let add_f=(data)=>{
 
-    let arr_data=JSON.parse(localStorage.getItem("add7"))||[];
+    let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
     arr_data.push(data);
 
-    localStorage.setItem("add7",JSON.stringify(arr_data));
+    localStorage.setItem("add1",JSON.stringify(arr_data));
   }

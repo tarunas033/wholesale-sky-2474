@@ -76,11 +76,11 @@ let append_smooth=(data)=>{
 
   let add_smo=(data)=>{
 
-    let arr_data=JSON.parse(localStorage.getItem("add10"))||[];
+    let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
     arr_data.push(data);
 
-    localStorage.setItem("add10",JSON.stringify(arr_data));
+    localStorage.setItem("add1",JSON.stringify(arr_data));
   }
 
 

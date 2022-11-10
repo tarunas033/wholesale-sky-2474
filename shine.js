@@ -76,9 +76,9 @@ let data9=[
 
   let add_ss=(data)=>{
 
-    let arr_data=JSON.parse(localStorage.getItem("add9"))||[];
+    let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
     arr_data.push(data);
 
-    localStorage.setItem("add9",JSON.stringify(arr_data));
+    localStorage.setItem("add1",JSON.stringify(arr_data));
   }
