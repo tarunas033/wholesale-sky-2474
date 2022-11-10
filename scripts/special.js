@@ -121,33 +121,50 @@ let data = [
   dispalyproduct(data)
   
   function dispalyproduct(data) {
+
     document.getElementById("products").innerHTML = ""
   
     let addtobagstorage = JSON.parse(localStorage.getItem("Userbag")) || []
+
     data.forEach(el => {
   
       let div = document.createElement("div")
+
       let image = document.createElement("img")
       image.src = el.src
+
       let caption = document.createElement("h6")
       caption.innerText = el.caption
+
       let description = document.createElement("p")
       description.innerText = el.description
+
       let price = document.createElement("p")
       price.innerText = el.price
+
       let detailsContainer = document.createElement('div')
       let addtobag = document.createElement("button")
       addtobag.innerText = "ADD TO BAG"
       addtobag.style.cursor = "pointer"
       addtobag.addEventListener("click", function (e) {
+        // console.log("Hi")
         
     let addtobagstorage = JSON.parse(localStorage.getItem("Userbag")) || []      
         addtobagstorage.push(el)
+        console.log((el))
         localStorage.setItem("Userbag", JSON.stringify(addtobagstorage))
+        alert("Item Added to Cart Successfully")
+        // window.location.href="cart.html"
       })
   detailsContainer.append(image, caption, description, price,)
       div.append(detailsContainer, addtobag)
       document.getElementById("products").append(div)
-  
+      
     })
   }
+  
+ 
+  
+   
+  
+  
