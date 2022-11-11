@@ -1,3 +1,8 @@
+import navbar from "../components/nav.js";
+let navBox = document.querySelector("#navbar____Container")
+navBox.innerHTML = navbar();
+
+
 
 const input1 = document.querySelector("#input1");
 const input2 = document.querySelector("#input2");
