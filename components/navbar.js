@@ -30,7 +30,9 @@ let mainnavbar=()=>{
 </div>
 <hr>
 <div id="navbarsecond">
-    <a href="shop.html">SHOP</a>
+    <a href="shop.html">SKINCARE</a>
+    <a href="shop.html">HAIRCARE</a>
+
     <a href="seller.html">BEST SELLERS</a>
     <a href="">FEATURED</a>
     <a href="">OUR STORY</a>
