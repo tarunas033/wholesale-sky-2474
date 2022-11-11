@@ -1,9 +1,17 @@
+<<<<<<< HEAD
    
 // import {mainnavbar} from "./navbar.js"
 // let nav=document.getElementById("navbar");
 // nav.innerHTML=mainnavbar();
 
 
+=======
+import navbar from "../components/nav.js"
+import {footer} from "../components/navbar.js"
+let nav=document.getElementById("navbar");
+nav.innerHTML=navbar();
+console.log(nav);
+>>>>>>> df1fcdf35031761c790ef3895df1ac1c36f2ab3c
 
 let data = [
     

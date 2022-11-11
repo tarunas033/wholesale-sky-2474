@@ -1,3 +1,7 @@
+import navbar from "../components/nav.js";
+let navBox = document.querySelector("#navbar____Container")
+navBox.innerHTML = navbar();
+
 
 const data = [
     "Andhra Pradesh",

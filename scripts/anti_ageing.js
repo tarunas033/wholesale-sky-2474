@@ -1,3 +1,14 @@
+import {mainnavbar,footer,lastbar} from "../components/navbar.js";
+
+
+let nav=document.getElementById("nav3");
+nav.innerHTML=mainnavbar();
+
+let foot=document.getElementById("footer");
+foot.innerHTML=footer();
+let last=document.getElementById("last_bar");
+last.innerHTML=lastbar();
+
 let data2=[
     {
       "image": "https://www.rodanandfields.com/en-us/medias/AAWA125-AATN125-AATT030-AAPM030-REDEFINE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3wzMTE2NXxpbWFnZS9wbmd8aW1hZ2VzL2hkNy9oMWMvMTM3NTgzODQwNzg4NzgucG5nfDE5NTM4Yzc1OTA0MWNiY2M5NzYwMDZhMTQ0NGVmZDEzZmRhYzVlZWE4YWRhODk3NWQ0ZGU1NDlhNzVjZTUyOTU",
