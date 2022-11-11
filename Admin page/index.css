@@ -66,8 +66,8 @@ background-color:yellow;
     
 }
 #container{
-    display: flex;
-border: 0px solid red;
+    /* display: flex; */
+border: 1px solid red;
 /* background: rgb(68, 32, 228); */
 width: 1046px;
 height: 600px;
