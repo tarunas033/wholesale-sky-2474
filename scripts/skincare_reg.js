@@ -1,4 +1,7 @@
-let nav=document.getElementById("navbar");
+import {mainnavbar} from "./navbar.js"
+
+
+let nav=document.getElementById("navbarr");
 nav.innerHTML=mainnavbar();
 
 let data_bundles=[
