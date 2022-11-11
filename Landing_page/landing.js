@@ -1,5 +1,5 @@
 import {mainnavbar} from "./navbar.js"
 
 
-let nav=document.getElementById("navv");
-nav.innerHTML=mainnavbar();
+let navv=document.getElementById("navv");
+navv.innerHTML=mainnavbar();
