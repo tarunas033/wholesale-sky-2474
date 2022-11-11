@@ -15,8 +15,9 @@ article {
 }
 aside {
     width: 40%;
-    height: 340px;
+    height: 270px;
     border: 1px solid silver;
+    border-radius: 4px;
 }
 .main__Box {
     display: flex;
@@ -60,6 +61,7 @@ aside {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
+    margin-top: 7px;
 }
 .main__Box__sideBar > article > img {
     display: block;
@@ -123,3 +125,31 @@ aside {
     justify-content: center;
     align-items: center;
 }
+#promo___Code {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    color: paleturquoise;
+    background-color: purple;
+    font-size: 17px;
+}
+.quantity_Number {
+    text-align: center;
+}
+.inc__Dec__Div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 7px;
+}
+/* .plus {
+    display: block;
+    margin: auto;
+} */
+/* .minus {
+    display: block;
+    margin: auto;
+} */
