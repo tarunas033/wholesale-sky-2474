@@ -1,3 +1,6 @@
+let nav=document.getElementById("navbar");
+nav.innerHTML=mainnavbar();
+
 let data_bundles=[
     {
       "image": "https://www.rodanandfields.com/en-us/medias/HAAGRTRF-AAWA125-AATN125-AATL030-AAPL030-ENFM030-720x600-desktop-1.jpg?context=bWFzdGVyfGltYWdlc3w1OTI3OXxpbWFnZS9qcGVnfGltYWdlcy9oYjQvaDI1LzE1ODIwMzU5MjM3NjYyLmpwZ3wyMjRjOWIwMGUyMTU3ZjU3YTExNjM5MjkyMmJhNmE1MDAzYzU0YzVmMmE0NGU0NzI4NDRjZTI0YzdiNmNlNDU5",
@@ -150,6 +153,7 @@ let data_bundles=[
 
     let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
+    data.qty=1;
     arr_data.push(data);
 
     localStorage.setItem("add1",JSON.stringify(arr_data));

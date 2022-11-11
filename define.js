@@ -71,7 +71,7 @@ let append_bundles=(data)=>{
   let add_a=(data)=>{
 
     let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
-
+    data.qty=1;
     arr_data.push(data);
 
     localStorage.setItem("add1",JSON.stringify(arr_data));
@@ -149,7 +149,7 @@ let append_bundles=(data)=>{
   let add_s=(data)=>{
 
     let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
-
+    data.qty=1;
     arr_data.push(data);
 
     localStorage.setItem("add1",JSON.stringify(arr_data));
@@ -241,7 +241,7 @@ let data7=[
   let add_f=(data)=>{
 
     let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
-
+    data.qty=1;
     arr_data.push(data);
 
     localStorage.setItem("add1",JSON.stringify(arr_data));
