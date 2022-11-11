@@ -1,3 +1,9 @@
+import navbar from "../components/nav.js"
+import {footer} from "../components/navbar.js"
+let nav=document.getElementById("navbar");
+nav.innerHTML=navbar();
+console.log(nav);
+
 let data = [
     
     {
