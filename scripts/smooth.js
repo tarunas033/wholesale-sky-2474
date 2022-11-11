@@ -1,3 +1,9 @@
+import {mainnavbar} from "../components/navbar.js";
+
+
+let nav=document.getElementById("nav10");
+nav.innerHTML=mainnavbar();
+
 let data10=[
     {
       "image": "https://www.rodanandfields.com/en-us/medias/HSMRGLP1-400x400-image-category-desktop-1.png?context=bWFzdGVyfGltYWdlc3wxOTkwNnxpbWFnZS9wbmd8aW1hZ2VzL2g0Yi9oZmYvMTU4ODA4MDgwMDU2NjIucG5nfGRiMjBjZTMwMzYxMzc4YjUxMzZhNWI5NWU2N2Y5YjA4ODBiNmI1YmM1MTI4NTM5ZjdlZDhkOWI3YjU2ZDRlNTI",

@@ -1,4 +1,4 @@
-import {mainnavbar} from "./navbar.js"
+import {mainnavbar} from "../components/navbar.js";
 let nav=document.getElementById("navbar");
 nav.innerHTML=mainnavbar();
 
