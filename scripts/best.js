@@ -149,6 +149,8 @@ let data = [
     let addtobagstorage = JSON.parse(localStorage.getItem("Userbag")) || []      
         addtobagstorage.push(el)
         localStorage.setItem("Userbag", JSON.stringify(addtobagstorage))
+        alert("Item Added to Cart Successfully")
+        window.location.href="cart.html"
       })
   detailsContainer.append(image, label, caption, description, price,)
       div.append(detailsContainer, addtobag)
