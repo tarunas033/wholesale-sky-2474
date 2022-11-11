@@ -1,3 +1,4 @@
+
 let cart = JSON.parse(localStorage.getItem("add1"));
 
 let proceedForPay = document.querySelector("#payment");
