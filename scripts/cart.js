@@ -1,3 +1,8 @@
+import navbar from "../components/nav.js";
+let navBox = document.querySelector("#navbar____Container")
+navBox.innerHTML = navbar();
+
+
 let cart = JSON.parse(localStorage.getItem("add1"));
 
 let proceedForPay = document.querySelector("#payment");
