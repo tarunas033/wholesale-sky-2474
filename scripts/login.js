@@ -1,4 +1,4 @@
-import navbar from "../components/nav.js";
+import {navbar} from "../components/navbar.js";
 let navBox = document.querySelector("#navbar____Container")
 navBox.innerHTML = navbar();
 
@@ -38,7 +38,7 @@ async function loginApi(payload){
         let data = await response.json();
         console.log("data:",data);
         alert("Success!");
-        // window.location.href = "product.html";
+        window.location.href = "index.html";
     } catch (error) {
         console.log("error:",error);
         alert("Try Again!");
