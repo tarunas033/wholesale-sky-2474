@@ -1,7 +1,7 @@
-* {
+/* * {
     overflow-x: hidden;
     font-family: ProximaNovaRegular,Arial;
-}
+} */
 section {
     display: grid;
     grid-template-columns: 1fr;
@@ -14,6 +14,9 @@ article {
     padding-bottom: 2rem;
 }
 aside {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
     width: 40%;
     height: 270px;
     border: 1px solid silver;
@@ -101,7 +104,10 @@ aside {
     font-size: 12px;
 }
 .order___summaryDiv {
-    background-color: rgb(238, 236, 236);;
+    background-color: rgb(238, 236, 236);
+    height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .order___summaryP {
     text-align: center;

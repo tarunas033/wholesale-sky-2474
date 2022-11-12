@@ -1,4 +1,4 @@
-import navbar from "../components/nav.js";
+import {navbar} from "../components/navbar.js";
 let navBox = document.querySelector("#navbar____Container")
 navBox.innerHTML = navbar();
 
@@ -65,8 +65,8 @@ const handleClick = () => {
          otpDiv.append(h1);
 
          setTimeout(()=>{
-            window.location.href = "./Landing_page/index.html";
-         },4000);
+            window.location.href = "index.html";
+         },2000);
 
 
         return;
