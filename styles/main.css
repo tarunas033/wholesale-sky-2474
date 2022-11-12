@@ -1,18 +1,17 @@
 *{
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
 }
 
 /* this is the main div where the will play */
 
 #main_video_banner{
-  margin-top: 100px;
-    width: 100%;
-    border: 0px solid red;
-    height: 600px;
-    display: flex;
-    
+  width: 100%;
+  border: 0px solid red;
+  height: 600px;
+  display: flex;
+  
 }
 
 
@@ -20,43 +19,43 @@
 /* this is the child 1 which is  responible for left content */
 
 #main_video_banner>div:nth-child(1){
-    border: 0px solid red;
-    width:50%    ;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background: #8a5080;
-    
+  border: 0px solid red;
+  width:50%    ;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #8a5080;
+  
 }
 .heading_in_video_banner{
-    margin-top: 150px;
-    font-size: 28px;
-    width: 300px;
-    margin-left: 30px;
-    color: white;
-    line-height: 35px;
-    
+  margin-top: 150px;
+  font-size: 28px;
+  width: 300px;
+  margin-left: 30px;
+  color: white;
+  line-height: 35px;
+  
 }
 .p_in_video_banner{
-    margin-top: 35px;
-    text-align: justify;
-    width: 300px;
-    margin-left: 30px;
-    color: white;
-    font-size: 15px;
-    font-family: sans-serif;
-    line-height: 20px;
+  margin-top: 35px;
+  text-align: justify;
+  width: 300px;
+  margin-left: 30px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 20px;
 
 }
 .btn_in_video_banner{
-    margin-top: 50px;
-    padding: 10px;
-    width: 280px;
-    margin-left: 50px;
-    color: black;
-    font-weight:bold;
-    cursor: pointer;
-    
+  margin-top: 50px;
+  padding: 10px;
+  width: 280px;
+  margin-left: 50px;
+  color: black;
+  font-weight:bold;
+  cursor: pointer;
+  
 }
 
 
@@ -65,85 +64,86 @@
 
 /* this is the child div 2 which is responible for right content (video)  */
 #main_video_banner>div:nth-child(2){
-    border: 0px solid red;
-    width: 100%;
-    
+  border: 0px solid red;
+  width: 100%;
+  
 }
 .main_video_banner_2nd{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 .main_video_banner_2nd>div{
 
-    border: 0px solid red;
-    width: 90%;
-    height: 80%;
-    
+  border: 0px solid red;
+  width: 90%;
+  height: 80%;
+  
 }
 
 
 /* this is responsible for three product which is showing below the video content */
 
-  #three_product_div{
-    width: 100%;
-    height: 450px;
-    border: 0px solid red;
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    margin-top: 35px;
-  }
-  #three_product_div>div{
-    width:350px;
-    height: 430px;
-    border: 0px solid red;
-    background-size: 100%;
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    justify-content: flex-end;
-    cursor: pointer;
-  }
-  #three_product_div>div:nth-child(1){
-    background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Hair-Smooth-HP-Module-US-CAN-AUS2.jpg?context=bWFzdGVyfHJvb3R8NTY2MjZ8aW1hZ2UvanBlZ3xoYzAvaDExLzE1ODg5Mzg4NjM0MTQyLmpwZ3w1ZTMxZWJjNWE4YmQ2ZmM0NjEzMWQzOGVmYzA5MmIyNGRkOTAwMmJmNzQ4Y2M0ZjNhN2MwYTU5NTY5MWU4ZDA2);
-    background-size: 100%;
-  }
-  #three_product_div>div:nth-child(2){
-    
-    background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Skincare-1-HP-Module-US-CAN-AUS2.jpg?context=bWFzdGVyfHJvb3R8NTQ4ODR8aW1hZ2UvanBlZ3xoNWEvaGQwLzE1ODg5Mzg4Njk5Njc4LmpwZ3w1ZTNjODZhYzM0NTM1N2M4MGViYjYyMWRkZmYyNDU3MGU5MDdkZGQxZDIyZWI4ZmQwYmI4ZjVjOGRmOTg0NDdl);
-    background-size: 100%;
-    border-radius: 10px;
-  }
-  #three_product_div>div:nth-child(3){
-    background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Skincare-2-HP-Module-US2.jpg?context=bWFzdGVyfHJvb3R8NjgyMzV8aW1hZ2UvanBlZ3xoNzcvaGEzLzE1ODg5Mzg4NzY1MjE0LmpwZ3xjMWM0YWNhZjIyMjg2OTgwODA5MzgyOWNlYzc5OTE5MDBhNjZiYWIzYTQ2NDI5ZTRmMTZjNmJhOTBjNTVmOGJm);
-    background-size: 100%;
-    border-radius: 10px;
-  }
- #three_product_div>div>p:nth-child(1){
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
-    
+#three_product_div{
+  width: 100%;
+  height: 450px;
+  border: 0px solid red;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 35px;
+}
+#three_product_div>div{
+  width:350px;
+  height: 430px;
+  border: 0px solid red;
+  background-size: 100%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+#three_product_div>div:nth-child(1){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Hair-Smooth-HP-Module-US-CAN-AUS2.jpg?context=bWFzdGVyfHJvb3R8NTY2MjZ8aW1hZ2UvanBlZ3xoYzAvaDExLzE1ODg5Mzg4NjM0MTQyLmpwZ3w1ZTMxZWJjNWE4YmQ2ZmM0NjEzMWQzOGVmYzA5MmIyNGRkOTAwMmJmNzQ4Y2M0ZjNhN2MwYTU5NTY5MWU4ZDA2);
+  background-size: 100%;
+}
+#three_product_div>div:nth-child(2){
+  
+  background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Skincare-1-HP-Module-US-CAN-AUS2.jpg?context=bWFzdGVyfHJvb3R8NTQ4ODR8aW1hZ2UvanBlZ3xoNWEvaGQwLzE1ODg5Mzg4Njk5Njc4LmpwZ3w1ZTNjODZhYzM0NTM1N2M4MGViYjYyMWRkZmYyNDU3MGU5MDdkZGQxZDIyZWI4ZmQwYmI4ZjVjOGRmOTg0NDdl);
+  background-size: 100%;
+  border-radius: 10px;
+}
+#three_product_div>div:nth-child(3){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Skincare-2-HP-Module-US2.jpg?context=bWFzdGVyfHJvb3R8NjgyMzV8aW1hZ2UvanBlZ3xoNzcvaGEzLzE1ODg5Mzg4NzY1MjE0LmpwZ3xjMWM0YWNhZjIyMjg2OTgwODA5MzgyOWNlYzc5OTE5MDBhNjZiYWIzYTQ2NDI5ZTRmMTZjNmJhOTBjNTVmOGJm);
+  background-size: 100%;
+  border-radius: 10px;
+}
+#three_product_div>div>p:nth-child(1){
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  
 
 
- }
- #three_product_div>div>p:nth-child(2){
-    font-size: 28px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
+}
+#three_product_div>div>p:nth-child(2){
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
 
 
- }
- 
- #two_product_image_div{
+}
+/* -------------------------------------------------- */
+
+#two_product_image_div{
   width: 100%;
   border: 0px solid red;
   height: 700px;
@@ -180,29 +180,56 @@
   margin-top: 645px;
 }
 
-.scrollmenu>div{
-  width: 350px;
-  height: 500px;
-  border: 1px solid red;
-  margin-left: 10px;
+#Add_container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+width: 100%;
+height: 580px;
+border: 0px solid blue;
+margin: auto;
+gap: 20px;
+margin-top: 50px;
+background-color: rgb(252, 238, 240);
+cursor: pointer;
 }
-div.scrollmenu {
-  /* background-color: #333; */
-  overflow: auto;
-  white-space: nowrap;
-  border: 1px solid red;
-  width: auto;
-  height:550px;
-  /* display: flex; */
+.add_img{
+text-align: center;
+border: 0px solid red;
+height: 509px;
+background-color: white;
+margin: auto;
 }
-
-div.scrollmenu div {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  position: relative;
+.add_img img{
+width: 85%;
+}
+.add_img p,h4 {
+margin-top: 10px;
+/* margin-left: 20px */
+}
+.fas {
+margin-top: 10px;
+color: #363535;
+}
+#addbtn{
+width: 95%;
+height: 40px;
+margin-left: 10px;
+margin-top: 10px;
+background-color: #fff;
+font-size: 15px;
+border: 1px solid #363535 ;
+font-weight: bold;
+border-radius: 4px;
+cursor: pointer;
+}
+#addbtn:hover{
+background-color: rgb(206, 229, 237);
+}
+.derm{
+font-size: 40px;
+color: #363535;
+text-align: center;
+margin-top: 60px;
 }
 
 /* div.scrollmenu div:hover {
@@ -210,28 +237,8 @@ div.scrollmenu div {
 } */
 
 
-.add_btn{
-  width: 300px;
-  height: 40px;
-  margin: 0;
-position: absolute;
-top: 90%;
-left: 50%;
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-box-shadow: #777;
-}
 
-.add_img{
-  width: 250px;
-  height: 250px;
-  border: 1px solid red;
- 
-}
-.add_img>img{
-width: 100%;
 
-}
 
 #six_div{
   margin-top: 50px;
@@ -319,6 +326,173 @@ width: 100%;
   background-image: url(https://www.rodanandfields.com/en-us/medias/Uneven-Tone-Brown-Spots-Card.jpg?context=bWFzdGVyfHJvb3R8NTc4OTV8aW1hZ2UvanBlZ3xoY2UvaDY0LzEyODg5MTg4MzM1NjQ2LmpwZ3w0ZjUyN2U3MWE1YzYwNmNmYzgxZTQ3MTAxNmU3ZGIyNjA4NmU1MTQ2Mjc4NWU2NWRhOTFmNDU3NGRmNmI0MDFi);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+#middle_banner_img{
+  width: 95%;
+  height:150px;
+  border: 0px solid red;
+  margin: auto;
+  margin-top: 70px;
+  background-color: rgb(227, 240, 246);
+}
+.middle_para{
+  width: 80%;
+  height: 100px;
+  border: 0px solid red;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.middle_para>div{
+  width: 35%;
+  height: 90px;
+  margin: auto;
+  margin-left: 10px;
+  border: 0px solid red;
+}
+.middle_para div p{
+  font-size: 30px;
+  text-align: center;
+  color: #504e4e;
+}
+.middle_para div ul li{
+  margin-left: 20px;
+  font-size: 18px;
+}
+.findbtn{
+  width: 50%;
+  padding: 12px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: #fff;
+  font-size: 13px;
+  border: 1px solid #504e4e;
+  cursor: pointer;
+}
+.findbtn:hover{
+background-color: aliceblue;
+}
+
+#middlepart_image{
+  width: 95%;
+  height: 500px;
+  display: grid;
+ grid-template-columns: repeat(3,1fr);
+  border: 0px solid blue;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #f3f7f8;
+}
+#middlepart_image>div{
+  width: 80%;
+  height: 390px;
+  margin: auto;
+  border: 0px solid red;
+}
+#middlepart_image>div>div>img{
+  width: 100%;
+}
+.headpara{
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.headpara h5{
+  font-size:20px;
+}
+.headpara p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* text-align: justify; */
+}
+
+.reflink{
+  margin-top: 60px;
+  color: black;
+  margin-left: 29px;
+}
+
+/* two_banner_product_div */
+
+#two_banner_product_div{
+width: 100%;
+border: 0px solid red;
+height: 345px;
+display: flex;
+justify-content: space-evenly;
+}
+#two_banner_product_div>div{
+width: 48%;
+height: 98%;
+border: 0px solid red;
+display: flex;
+cursor: pointer;
+}
+.two_banner_product_div_child{
+border: 0px solid blue;
+width: 50%;
+height: 100%;
+text-align: left;
+margin-left: 10px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.two_banner_product_div_child>img{
+width: 100%;
+}
+.pc1{
+background-color: #fef9f2;
+}
+
+
+
+/* scrollbar */
+
+.radon{
+margin-top: 20px;
+margin-left: 30px;
+color: #363535;
+}
+
+.scrollmenu>div{
+
+width: 300px;
+height: 320px;
+border: 0px solid green;
+margin-left: 10px;
+}
+div.scrollmenu {
+/* background-color: #333; */
+overflow: auto;
+margin-top: 40px;
+white-space: nowrap;
+border: 0px solid red;
+width: 100%;
+height:340px;
+/* display: flex; */
+}
+
+div.scrollmenu div {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+position: relative;
+}
+div.scrollmenu div>img{
+width: 250px;
+height: 300px;
+border: 0px solid yellow;
+
+}
+div.scrollmenu div>img{
+width: 100%;
+
 }
 
 
