@@ -11,7 +11,7 @@ let navbar=()=>{
 <div>
 <a href="signup.html">Sign In <i class="fa-solid fa-user"></i></a>
 </div>
-<div><i class="fa-sharp fa-solid fa-basket-shopping-simple"></i></div>
+<div><a href="./cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></div>
 <div> <i class="fa-solid fa-earth-americas"></i> English</div>
 </div>
 </div>
@@ -36,7 +36,7 @@ let navbar=()=>{
             </div>
     <h4> <a href="./best.html">BEST SELLERS </a></h4>
     <h4><a href="./special.html">SPECIAL OFFERS </a></h4>
-    <h4>ABOUT</h4>
+    <h4><a href="./about.html">ABOUT </a></h4>
     <h4>PERKS PROGRAM</h4>
     <h4>BECAME A CONSULTANT</h4>
 </div>`
