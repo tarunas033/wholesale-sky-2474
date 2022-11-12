@@ -5,7 +5,7 @@ let navbar=()=>{
 </div>
 <div id="mainnav">
 <h4 >FIND A CONSULTANT</h4>
-<img class="logo" src="./img/logo.png" alt="">
+<a href="./index.html"> <img class="logo" src="./img/logo.png" alt=""></a> 
 <div id="login-wala">
 <div>  Search  <i class="fa-solid fa-magnifying-glass"></i></div>
 <div>
@@ -34,8 +34,8 @@ let navbar=()=>{
               <a  class="parda" href="smooth.html">SMOOTH+</a>
             </div>
             </div>
-    <h4>BEST SELLERS</h4>
-    <h4>SPECIAL OFFERS</h4>
+    <h4> <a href="./best.html">BEST SELLERS </a></h4>
+    <h4><a href="./special.html">SPECIAL OFFERS </a></h4>
     <h4>ABOUT</h4>
     <h4>PERKS PROGRAM</h4>
     <h4>BECAME A CONSULTANT</h4>

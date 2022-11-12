@@ -1,12 +1,6 @@
-import {mainnavbar}from "../components/navbar.js"
-import {lastbar} from "../components/navbar.js"
-import {footer} from "../components/navbar.js"
-let last=document.getElementById("last_bar")
-last.innerHTML=lastbar()
-let foot=document.getElementById("footer")
-foot.innerHTML=footer()
-let nav=document.getElementById("mainnav");
-nav.innerHTML=mainnavbar();
+import {navbar}from "../components/navbar.js"
+let nav=document.getElementById("nav");
+nav.innerHTML=navbar();
 
 let data = [
     
@@ -15,7 +9,7 @@ let data = [
       label: 'Best Seller',
       caption: 'R + F Lash Boost',
       description: 'Applied nightly to promote the appearance of longer, stronger and darker-looking lashes.',
-      price: '$155',
+      price: 155
   
   
     },
@@ -24,7 +18,7 @@ let data = [
       label: 'Best Seller',
       caption: 'Total RF Serum',
       description: 'Our most comprehensive anti-aging serum to revitalize and address all key signs of aging.',
-      price: '$175',
+      price: 175,
   
   
     },
@@ -33,16 +27,16 @@ let data = [
       label: 'Best Seller',
       caption: 'REDEFINE Regimen',
       description: 'Visibly lifts,sculpts + firms while minimizing the appearance of lines + deep wrinkles',
-      price: '$220',
-  
-  
+      price: 220,
+      
+      
     },
     {
       src: 'https://www.rodanandfields.com/en-us/medias/MFEC-Regimen-Explainer-GLOBAL-570x570.png?context=bWFzdGVyfGltYWdlc3wyMzc3NHxpbWFnZS9wbmd8aW1hZ2VzL2gzNS9oZmMvMTM3NTgzODU0NTUxMzQucG5nfDNmYWYyNzdiZGY5OWIyY2UzMDYyZDliYmM2YmUzMTRmOGY3Yzg0YmY1ZjY2YjgyYWU1OGNhZDZiN2IzMjViZGI',
       label: 'Best Seller',
       caption: 'REDEFINE Multi-Function Eye Cream',
       description: 'Visibly firms + lifts to improve the look of fine lines',
-      price: '$70 ',
+      price: 70 ,
   
   
     },
@@ -51,25 +45,25 @@ let data = [
       label: 'Best Seller',
       caption: 'R + F Active Hydration Serum',
       description: `Instantly boosts hydration levels by 200% and locks in moisture on skin's surface.`,
-      price: '$112',
+      price: 112,
   
   
     },
-    {
-      src: 'https://www.rodanandfields.com/en-us/medias/ENHEY15-720x600-DESKTOP-v4.jpg?context=bWFzdGVyfGltYWdlc3w2MDYyOXxpbWFnZS9qcGVnfGltYWdlcy9oZDcvaGI2LzEzNTMzMTczODc0NzE4LmpwZ3w0MGI1MmM0OTExMmRiMzUzYzg5YTIyNWJjZTdiOTZkNzk1ZTVmOTk2MTBhY2IzZTcwNzhkZDI4NTUxZDI5Zjhh',
-      label: 'Best Seller',
-      caption: 'Active Hydration Bright Eye Complex',
-      description: 'Reduces visible dark circles and under-eye puffiness over time for younger-looking eyes.',
-      price: '$72',
+    // {
+    //   src: 'https://www.rodanandfields.com/en-us/medias/ENHEY15-720x600-DESKTOP-v4.jpg?context=bWFzdGVyfGltYWdlc3w2MDYyOXxpbWFnZS9qcGVnfGltYWdlcy9oZDcvaGI2LzEzNTMzMTczODc0NzE4LmpwZ3w0MGI1MmM0OTExMmRiMzUzYzg5YTIyNWJjZTdiOTZkNzk1ZTVmOTk2MTBhY2IzZTcwNzhkZDI4NTUxZDI5Zjhh',
+    //   label: 'Best Seller',
+    //   caption: 'Active Hydration Bright Eye Complex',
+    //   description: 'Reduces visible dark circles and under-eye puffiness over time for younger-looking eyes.',
+    //   price: '72',
   
   
-    },
+    // },
     {
       src: 'https://www.rodanandfields.com/en-us/medias/ENBR001-720x600-DESKTOP.jpg?context=bWFzdGVyfHJvb3R8MTg2NDR8aW1hZ2UvanBlZ3xoNWMvaGQ5LzEzNTMzMTYzMDk0MDQ2LmpwZ3xiNmNjNjE3YmJmOTI4Y2UzZjAwM2RkMDQwZDNkNmNiZDQyZWQzMzQ4N2ZjZmMxOWY1OGEzYjQ1MTFiM2M1MGE5',
       label: 'Best Seller',
       caption: 'Rodan + Fields Active Hydration Body Replenish',
       description: 'Instantly and continuously hydrates the body for younger-looking, younger-acting skin.',
-      price: '$66',
+      price: 66,
   
   
     },
@@ -78,7 +72,7 @@ let data = [
       label: 'Best Seller',
       caption: 'Rodan + Fields Enhancements Micro-Dermabrasion Paste',
       description: 'Exfoliates away dead skin cells for smoother, vibrant-looking skin after just one use.',
-      price: '$83',
+      price: 83,
   
   
     },
@@ -87,7 +81,7 @@ let data = [
       label: 'Best Seller',
       caption: 'REVERSE Regimen',
       description: 'Brightens + refines skin’s surface while tackling the look of fine lines + dark spots.',
-      price: '$195',
+      price: 195,
   
   
     },
@@ -96,7 +90,7 @@ let data = [
       label: 'Best Seller',
       caption: 'UNBLEMISH Regimen',
       description: 'Helps clear and prevent adult acne while visibly minimizing pores + fine lines.',
-      price: '$190',
+      price: 190,
   
   
     },
@@ -105,26 +99,26 @@ let data = [
       label: 'Best Seller',
       caption: 'SOOTHE Regimen',
       description: 'For teens + young adults: Clears existing blemishes + prevents new ones from forming.',
-      price: '"$89"',
+      price: 89,
   
   
     },
-    {
-      src: 'https://www.rodanandfields.com/en-us/medias/ENHEY15-720x600-DESKTOP-v4.jpg?context=bWFzdGVyfGltYWdlc3w2MDYyOXxpbWFnZS9qcGVnfGltYWdlcy9oZDcvaGI2LzEzNTMzMTczODc0NzE4LmpwZ3w0MGI1MmM0OTExMmRiMzUzYzg5YTIyNWJjZTdiOTZkNzk1ZTVmOTk2MTBhY2IzZTcwNzhkZDI4NTUxZDI5Zjhh',
-      label: 'Best Seller',
-      caption: 'Active Hydration Bright Eye Complex',
-      description: 'Reduces visible dark circles and under-eye puffiness over time for younger-looking eyes.',
-      price: '$72',
+    // {
+    //   src: 'https://www.rodanandfields.com/en-us/medias/RVWA125-RVTG125-RVSS050-RVTTG50-REVERSE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3w0MTY5NHxpbWFnZS9wbmd8aW1hZ2VzL2gyNy9oZWIvMTM3NTgzODQzNDEwMjIucG5nfGI3NmIzMjI0NTc2Y2RiZjZlNTdhYjg0ZDM4ZjM0MmM2M2U5Yjg5Y2RiNTM1NTM1NGFlOWNiY2E5ZTVkYTM5NWY',
+    //   label: 'Best Seller',
+    //   caption: 'Active Hydration Bright Eye Complex',
+    //   description: 'Reduces visible dark circles and under-eye puffiness over time for younger-looking eyes.',
+    //   price: '72',
   
   
-    },
+    // },
     {
       src: 'https://www.rodanandfields.com/en-us/medias/ENHLSH01-Regimen-Explainer-R-F-Lash-Boost-570x570-Desktop.png?context=bWFzdGVyfGltYWdlc3wxMDc0OHxpbWFnZS9wbmd8aW1hZ2VzL2hmMS9oYWMvMTQ1MzIwNDI1ODgxOTAucG5nfDQyNTQ0OGUzYmMwZTJkM2YzNzE1MjE2NzQ1M2YxMWQ5M2E3ZWQ2MjAwMDA3MzFmNjQyOWUwNDU3OWZmMTkzZDY',
       label: 'Best Seller',
       caption: 'R + F Lash Boost',
       description: 'Applied nightly to promote the appearance of longer',
       price: ' stronger and darker-looking lashes.',
-      rating: '$155',
+      rating: 155,
   
     },
   ]
@@ -133,7 +127,7 @@ let data = [
   function dispalyproduct(data) {
     document.getElementById("products").innerHTML = ""
   
-    let addtobagstorage = JSON.parse(localStorage.getItem("Userbag")) || []
+    let addtobagstorage = JSON.parse(localStorage.getItem("add1")) || []
     data.forEach(el => {
   
       let div = document.createElement("div")
@@ -156,9 +150,9 @@ let data = [
       addtobag.style.cursor = "pointer"
       addtobag.addEventListener("click", function (e) {
         
-    let addtobagstorage = JSON.parse(localStorage.getItem("Userbag")) || []      
+    let addtobagstorage = JSON.parse(localStorage.getItem("add1")) || []      
         addtobagstorage.push(el)
-        localStorage.setItem("Userbag", JSON.stringify(addtobagstorage))
+        localStorage.setItem("add1", JSON.stringify(addtobagstorage))
         alert("Item Added to Cart Successfully")
         window.location.href="cart.html"
       })
