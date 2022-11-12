@@ -1,10 +1,5 @@
-import {mainnavbar,footer,lastbar} from "../components/navbar.js";
-let nav=document.getElementById("navbar");
-nav.innerHTML=mainnavbar();
-let foot=document.getElementById("footer");
-foot.innerHTML=footer();
-let last=document.getElementById("last_bar");
-last.innerHTML=lastbar();
+import {navbar} from "../components/navbar.js";
+document.getElementById("navbar").innerHTML=navbar();
 
 let data8=[
     {
