@@ -1,4 +1,4 @@
-#login__div > form {
+/* #login__div > form {
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
@@ -34,4 +34,63 @@ input {
 }
 form > div > p {
     text-align: center;
+} */
+
+
+.signinBox > form {   
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;   
+} 
+#loginUsername, #loginPassword{   
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 1px solid black;   
+    box-sizing: border-box;   
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}  
+.loginContainer {   
+    padding: 25px;   
+}  
+.signinBox{
+    border: 1px solid transparent;
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+}
+.signinBox > form > p {
+    line-height: 33px;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+#loginbtn{
+    display: block;
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    font-size: 17px;
+    border: transparent;
+    border-radius: 8px;
+}
+#checkBox{
+    margin-top: 8px;
+}
+#linkOne{
+    margin-top: 10px;
+    text-decoration: none;
+}
+#linkTwo{
+    margin-top: 10px;
+    text-decoration: none;
 }
