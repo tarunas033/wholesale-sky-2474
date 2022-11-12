@@ -1,8 +1,17 @@
 
+window.onload=()=>{
 
-document.querySelector("form").addEventListener("click",()=>{
-myFun(event);
-});
+    document.getElementById("form").addEventListener("submit",()=>{
+        myFun(event);
+    })
+    append(store_data);
+
+
+
+
+
+}
+
 
 let myFun=(e)=>{
     e.preventDefault();
@@ -37,7 +46,7 @@ let container=document.getElementById("container")
 container.innerHTML=null;
 let append =(data)=>{
 
-    data.forEach(({name,image,price,description})=>{
+    data.forEach(({name,image,price,description},index)=>{
         let box=document.createElement("div")
         let img=document.createElement("img")
         img.src=image
@@ -46,17 +55,34 @@ let append =(data)=>{
         let desc=document.createElement("p")
         desc.innerText=description
         let p=document.createElement("p")
-        p.innerText=price;
+        p.innerText="Price"+"-"+price;
+        let add_btn=document.createElement("button");
+        add_btn.innerText="Add";
+        add_btn.addEventListener("click",()=>{
+            add_it(image,name,description,price);
+        })
 
 
-        box.append(img,nam,desc,p)
+        box.append(img,nam,desc,p,add_btn)
         container.append(box)
         
     })
 }
 
+let add_it=(img,nam,desc,p)=>{
 
- window.onload=()=>{
-    append(store_data);
+    let obj={
+        image:img,
+        name:nam,
+        description:desc,
+        price:p
+    }
+    let arr=JSON.parse(localStorage.getItem("add_to_page"))||[];
+    arr.push(obj);
+    localStorage.setItem("add_to_page",JSON.stringify(arr));
+}
 
+
+ let logout=()=>{
+window.location.href="index.html"
 }

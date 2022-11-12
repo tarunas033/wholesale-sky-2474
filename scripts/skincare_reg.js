@@ -121,7 +121,14 @@ let data_bundles=[
     }
   ]
 
+  let data=JSON.parse(localStorage.getItem("add_to_page"));
 
+  for(let i=0;i<data.length;i++){
+  
+    console.log(data[i]);
+    data_bundles.push(data[i]);
+  }
+  
   let append_bundles=(data)=>{
 
     let bundles=document.getElementById("bundles");
@@ -167,3 +174,6 @@ let data_bundles=[
 
     localStorage.setItem("add1",JSON.stringify(arr_data));
   }
+
+
+  
