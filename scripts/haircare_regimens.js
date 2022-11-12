@@ -82,6 +82,7 @@ let data8=[
 
     let arr_data=JSON.parse(localStorage.getItem("add1"))||[];
 
+    data.qty=1;
     arr_data.push(data);
 
     localStorage.setItem("add1",JSON.stringify(arr_data));
