@@ -15,7 +15,30 @@
 
     </div>
 
-    <div class="registration__div">
+    <div class="signupContainer">
+        <form action="" id="signupForm">
+          <p>Sign Up</p>
+          <label for="customerName">Name</label>
+          <input type="text" id="customerName" name="custname" required placeholder="Enter Name Here">
+      
+          <label for="customerNumber">Mobile Number</label>
+          <input type="text" id="customerNumber" name="custnum" required placeholder="Enter Mobile Number Here">
+      
+          <label for="customerEmail">Email</label>
+          <input type="text" id="customerEmail" name="emailID" required placeholder="Enter e-mail id">
+      
+          <label for="customerPassword">Password*</label>
+          <input type="text" id="customerPassword" name="password" required placeholder="Enter Password">
+      
+          <label for="customerPasswordConf">Password Confirmation *</label>
+          <input type="text" id="customerPasswordConf" name="passwordconf" required placeholder="Confirm Password">
+      
+          <input type="submit" value="Sign Up" id="signupBtn">
+          <p id="forLogginIn">Already a user ?<a href="login.html">Log In</a></p>
+        </form>
+    </div>
+
+    <!-- <div class="registration__div">
         <form action="" id="registration__form">
             <div>
                 <label for="">Name</label>
@@ -50,7 +73,7 @@
             </div>
 
         </form>
-    </div>
+    </div> -->
 
     <script type="module" src="./scripts/signup.js"></script>
     <script  src="https://kit.fontawesome.com/b63073adcc.js"
