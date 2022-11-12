@@ -1,4 +1,10 @@
 import {navbar} from "../components/navbar.js";
+import {footer} from "../components/footer.js"
+import {lower} from "../components/lower.js"
+let low=document.getElementById("lower");
+low.innerHTML=lower();
+let foot=document.getElementById("footer");
+foot.innerHTML=footer();
 document.getElementById("navbarr").innerHTML=navbar();
 
 let data_bundles=[
