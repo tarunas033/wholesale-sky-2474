@@ -1,7 +1,7 @@
 let mainnavbar=()=>{
     return ` <div id="navbar">
-    <p> <a href="consultant.html">FIND A CONSULTANT</a></p>
-    <H2><a href="index.html">RODAN+FIELDS</a></H2>
+    <h3><a class="parda" href="">FIND A CONSULTANT</a> </h3>
+    <H2> <a href=""> <img id="logo" src="https://www.rodanandfields.com/en-us/medias/HolidayLogo.svg?context=bWFzdGVyfGltYWdlc3w0ODgzfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2hkOC9oMTMvMTU4ODkzODY2NjgwNjIuc3ZnfGVjZTFhZDdhZmUwZDAzMGJjMjBmNDFjNWY1NjgwMjk1YWJkZDhjM2U2MjM2YjI0MWUyMjgyYWRiY2Q4M2M3ZjQ" alt=""></a></H2>
     <div id="navbarend">
         <div>
             <span>Search</span>
@@ -10,33 +10,82 @@ let mainnavbar=()=>{
                     alt=""></span>
         </div>
         <div>
-            <a href="signup.html">Signin</a>
+            <a href="/wholesale-sky-2474/signup.html">Signin</a>
             <span id="navsp"><img
                     src="https://th.bing.com/th/id/OIP.BVQV8VO63bEsw8x-1FGWnAHaHa?pid=ImgDet&w=1000&h=1000&rs=1"
                     alt=""></span>
         </div>
+
         <div>
-            <span id="navsp"><img
+            <span id="navsp">
+                <a href="payment.html"><img
                     src="https://cdn2.iconfinder.com/data/icons/shopping-316/100/Shopping_7-512.png"
-                    alt=""></span>
+                    alt=""></a></span>
         </div>
         <div>
             <span id="navsp"><img
                     src="https://th.bing.com/th/id/R.68861cc3f32b5c522eb33baae1b7e67f?rik=WRn9vJTy%2fbfx3Q&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2fwikipedia%2fflags%2f1024%2fIN-India-Flag-icon.png&ehk=yynj9tUxh29yIVJtvCVAL%2bae4tuPlvLlYklBp4nmd98%3d&risl=&pid=ImgRaw&r=0"
                     alt=""></span>
-            <a href="">INDIA</a>
+                    <div class="dropdown">
+                        <span>India</span>
+                        <div class="dropdown-content">
+                        <p>US</p>
+                        <P>UK</P>
+                        <p>Caneda</p>
+                        </div>
+                      </div>
         </div>
+
     </div>
 </div>
+
+
+
+
+
+
+
+
 <hr>
 <div id="navbarsecond">
-    <a href="shop.html">SHOP</a>
-    <a href="seller.html">BEST SELLERS</a>
-    <a href="">FEATURED</a>
-    <a href="">OUR STORY</a>
-    <a href="perks.html">PERKS PROGRAM</a>
-    <a href="blog.html">BECOME A CONSULTANT BLOG</a>
-</div>`
+    <div class="dropdown">
+        <span class="skin">SKINCARE</span>
+        <div class="dropdown-content">
+        <a href="">Skincare Regimens</a>
+        <a href="">Lass & Brow</a>
+        <a href="">Eye Cream & treatment</a>
+        <a href="">Face serum & Treatment</a>
+        <a href="">Face Mask</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <span id="hair">HARECARE</span>
+        <div class="dropdown-content">
+        <a href="">Sampoo</a>
+        <a href="">Hair Conditioner</a>
+        <a href="">Stylish Treatment</a>
+        
+
+        </div>
+      </div>
+    <a href="">BEST SELLER</a> 
+    <a href="">SPECIAL OFFER</a>
+    <div class="dropdown">
+        <span>ABOUT</span>
+        <div class="dropdown-content">
+        <a class="anchor" href="">OUR STORY</a>
+        <a href="">BEFORE+AFTER</a>
+        <a href="">EXPLORE</a>
+        <a href="">BLOG</a>
+        </div>
+      </div>
+    <a href="">PERKS PROGRAM </a>
+    <a href="">BECOME A CONSULTANT</a>
+
+</div>
+</div>
+
+`
 }
 
 let footer=()=>{
