@@ -151,6 +151,7 @@ let data = [
       let detailsContainer = document.createElement('div')
   
   
+      
       let addtobag = document.createElement("button")
       addtobag.innerText = "ADD TO BAG"
       addtobag.style.cursor = "pointer"
