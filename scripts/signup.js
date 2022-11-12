@@ -1,4 +1,4 @@
-import navbar from "../components/nav.js";
+import {navbar} from "../components/navbar.js";
 let navBox = document.querySelector("#navbar____Container")
 navBox.innerHTML = navbar();
 
@@ -37,7 +37,7 @@ function handleSubmit(event){
         console.log(res);
         alert("Success");
 
-        window.location.href = "login.html";
+        window.location.href = "index.html";
 
     }).catch((err)=>{
         console.log(err);

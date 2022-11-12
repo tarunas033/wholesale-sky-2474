@@ -1,4 +1,4 @@
-import navbar from "../components/nav.js";
+import {navbar} from "../components/navbar.js";
 let navBox = document.querySelector("#navbar____Container")
 navBox.innerHTML = navbar();
 
@@ -7,7 +7,7 @@ let cart = JSON.parse(localStorage.getItem("add1"));
 
 let proceedForPay = document.querySelector("#payment");
 proceedForPay.addEventListener("click",() =>{
-    window.location.href="../PaymentPage/payment.html";
+    window.location.href="payment.html";
 })
 
 let promoCodeBtn = document.querySelector("#promo___Code");
