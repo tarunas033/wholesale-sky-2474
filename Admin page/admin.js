@@ -61,9 +61,14 @@ let append =(data)=>{
         add_btn.addEventListener("click",()=>{
             add_it(image,name,description,price);
         })
+        remove__Btn = document.createElement("button");
+        remove__Btn.innerText = "Delete";
+        remove__Btn.onclick = () => {
+            deleteFromAdmin(index);
+        }
 
 
-        box.append(img,nam,desc,p,add_btn)
+        box.append(img,nam,desc,p,add_btn,remove__Btn);
         container.append(box)
         
     })
@@ -85,4 +90,15 @@ let add_it=(img,nam,desc,p)=>{
 
  let logout=()=>{
 window.location.href="index.html"
+}
+
+let deleteFromAdmin = (index) => {
+    // let arr=JSON.parse(localStorage.getItem("add_to_page"));
+    let store_data=JSON.parse(localStorage.getItem("addProduct"))
+    console.log(store_data);
+    store_data.splice(index,1);
+    window.location.reload();
+    localStorage.setItem("addProduct",JSON.stringify(store_data));
+    append(store_data);
+
 }
