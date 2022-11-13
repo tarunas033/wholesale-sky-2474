@@ -61,14 +61,14 @@ let append =(data)=>{
         add_btn.addEventListener("click",()=>{
             add_it(image,name,description,price);
         })
-        remove__Btn = document.createElement("button");
-        remove__Btn.innerText = "Delete";
-        remove__Btn.onclick = () => {
+        // remove__Btn = document.createElement("button");
+        // remove__Btn.innerText = "Delete";
+        add_btn.onclick = () => {
             deleteFromAdmin(index);
         }
 
 
-        box.append(img,nam,desc,p,add_btn,remove__Btn);
+        box.append(img,nam,desc,p,add_btn);
         container.append(box)
         
     })
