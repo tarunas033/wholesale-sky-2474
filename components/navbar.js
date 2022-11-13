@@ -22,7 +22,7 @@ let navbar=()=>{
         <div class="dropdown-content">
           <a   class="parda" href="skincare_reg.html">SKINCARE REGIMENS</a>
           <a  class="parda" href="ant_ageing.html">ANTI-AGING</a>
-          <a  class="parda" href="redefine.html">REDEFINE</a>
+          <a  class="parda" href="define.html">REDEFINE</a>
     
         </div>
     </div>

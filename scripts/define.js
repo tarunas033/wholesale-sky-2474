@@ -1,5 +1,9 @@
 import {navbar} from "../components/navbar.js";
+import {footer} from "../components/footer.js";
+import {lower} from "../components/lower.js";
 document.getElementById("nv").innerHTML=navbar();
+document.getElementById("footer").innerHTML=footer();
+document.getElementById("last_bar").innerHTML=lower();
 let data5=[
     {
       "image": "https://www.rodanandfields.com/en-us/medias/HAAGRTRF-AAWA125-AATN125-AATL030-AAPL030-ENFM030-720x600-desktop-1.jpg?context=bWFzdGVyfGltYWdlc3w1OTI3OXxpbWFnZS9qcGVnfGltYWdlcy9oYjQvaDI1LzE1ODIwMzU5MjM3NjYyLmpwZ3wyMjRjOWIwMGUyMTU3ZjU3YTExNjM5MjkyMmJhNmE1MDAzYzU0YzVmMmE0NGU0NzI4NDRjZTI0YzdiNmNlNDU5",
