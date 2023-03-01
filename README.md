@@ -6,14 +6,18 @@ This was a collabrative project completed in five days by 4 team members assigne
 # Team Members:
 
   Taruna Sharma	
+  
   Anup Das
+  
   Gayathri Harikumar	
+  
   Mritunjay kumar
+  
   Karmit	Mayur Wagh
  
 
 # Deploy link-
 
-dulcet-narwhal-59e57d.netlify.app
+https://dulcet-narwhal-59e57d.netlify.app
 
 
